@@ -2,7 +2,8 @@
 *{
     padding: 0;
     margin: 0;
-
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
     width: 80%;
@@ -12,11 +13,42 @@
 
 /* Banner related styles */
 .banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: rgba(95, 69, 3, 0.81);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-content{
+    width: 708px;
+    margin-left: 240px;
+}
+.banner-content h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+.banner-content p{
+    padding: 32px 0px;
+    width: 708px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.banner-img img {
+    width: 635px;
+    height: 800px;
+    margin-right: 240px;
+    margin-top: 50px;
+    
+}
+.btn-praimary {
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    cursor: pointer;
 }
