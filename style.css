@@ -70,14 +70,14 @@ header {
 }
 
 #feature-section h2 {
-color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-line-height: normal;
-width: 550px;
-margin: 0 auto;
-margin-top: 50px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 #feature-section p {
@@ -118,23 +118,25 @@ figure img {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 
 /* Service related css */
-#service-section{
+#service-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
     text-align: center;
-    margin-bottom: 150px;
+    border-radius: 8px;
+    background-color: rgb(39 39 39 / 17%);
+    padding: 30px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.service-item img{
+
+.service-item img {
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
-}
-.service-item p{
-
 }
