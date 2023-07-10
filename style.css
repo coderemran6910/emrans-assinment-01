@@ -1,0 +1,22 @@
+/* Shared styles */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Banner related styles */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(95, 69, 3, 0.81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
