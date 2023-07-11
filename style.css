@@ -1,4 +1,4 @@
-/* Shared styles */
+/* Sha#E55473 styles */
 * {
     padding: 0;
     margin: 0;
@@ -163,7 +163,7 @@ figure img {
 }
 
 section h2>span {
-    color: red;
+    color: #E55473;
 }
 
 /* .hot-deal-text h2 {
@@ -235,7 +235,7 @@ input[type="email"] {
 }
 
 /* ::placeholder {
-  color: red;
+  color: #E55473;
 }
   i find placeholder selector css code in google search
 */
@@ -245,4 +245,76 @@ input[type="email"] {
 
 .subscrive-wrapper {
     background-image: url("./Flower Asset/Rectangle 9.png");
+}
+
+/* footer related css  */   
+footer {
+    text-align: center;
+    padding: 100px;
+    background:  #111010;
+    color: white;
+}
+
+.footer-top h2 span {
+    color: #E55473;
+}
+
+.footer-top >h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-top p {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer-icons a {
+    font-size: 36px;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+.footer-icons a {
+    font-size: 36px;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 57px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 70px 0px;
+}
+.footer-bottom span {
+    color: #9f9f9f;
+    border-top: 1px solid #726b6b;
+    padding-top: 15px;
 }
