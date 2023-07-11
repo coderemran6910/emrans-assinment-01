@@ -28,7 +28,7 @@ button.btn-praimary a {
     padding-top: 50px;
 }
 
-section h2 {
+section .title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -39,7 +39,7 @@ section h2 {
     margin-top: 50px;
 }
 
-section p {
+section .description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-weight: 400;
@@ -62,7 +62,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.24);
 }
 
 .banner-content {
@@ -102,6 +102,19 @@ figure img {
     width: 300px;
     height: 400px;
     margin-bottom: -50px;
+}
+/*why i use  !important value ??
+ i am searching google , why my bg color is not working, then i find this value..... */
+
+.feature-img-1{
+    background: rgba(167, 33, 98, 0.15)!important;   
+}
+.feature-img-2{
+    background: rgba(5, 151, 160, 0.15)!important; 
+}
+.feature-img-3{
+    background:rgba(71, 125, 17, 0.15)!important;
+       
 }
 
 .feature-item figure {
@@ -317,4 +330,42 @@ footer {
     color: #9f9f9f;
     border-top: 1px solid #726b6b;
     padding-top: 15px;
+}
+
+
+/* Available section css */
+/* Extra section for bonus  */
+
+section#available-section {
+    padding-bottom: 50px;
+    background: #680d0d1f;
+    margin-top: 50px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 10px;
+
+}
+.singleProduct img{
+    width: 75%;
+    height: 50%;
+    margin-bottom: 13px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.singleProduct {
+    margin-right: 31px;
+    width: 400px;
+    height: 361px;
+    border-radius: 40px;
+    background-color: #a9171747;
+    text-align:center;
+}
+.singleProduct h3 {
+    margin-top: 40px;
+}
+.singleProduct h3 {
+    margin-top: 40px;
 }
