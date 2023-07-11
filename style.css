@@ -149,6 +149,10 @@ figure img {
     margin-bottom: 100px;
 }
 
+.service-item {
+    margin: 24px 70px;
+}
+
 .service-item img {
     width: 80px;
     height: 80px;
@@ -258,6 +262,10 @@ input[type="email"] {
 
 .subscrive-wrapper {
     background-image: url("./Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 /* footer related css  */   
