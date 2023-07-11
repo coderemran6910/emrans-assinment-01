@@ -5,6 +5,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
 .btn-praimary {
     padding: 20px 40px;
     color: #FFF;
@@ -25,6 +26,27 @@ button.btn-praimary a {
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
+}
+
+section h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+section p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 
@@ -68,27 +90,6 @@ header {
 
 /* Feature section related styles */
 
-#feature-section h2 {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: normal;
-    width: 550px;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-#feature-section p {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-weight: 400;
-    line-height: 30px;
-    font-size: 18px;
-    width: 500px;
-    margin: 0 auto;
-}
-
 .features {
     display: flex;
     justify-content: space-around;
@@ -124,10 +125,11 @@ figure img {
 /* Service related css */
 #service-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     border-radius: 8px;
+    padding: 0 30px;
     background-color: rgb(39 39 39 / 17%);
     padding: 30px 0px;
     margin-top: 100px;
@@ -141,13 +143,13 @@ figure img {
 }
 
 /* Hot deat section related css */
-#hot-deal-section{
+#hot-deal-section {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.186);
 
 }
 
-.hot-deal-container{
+.hot-deal-container {
     /* margin-top: 100px;
     margin-bottom: 100px; */
     display: flex;
@@ -155,11 +157,16 @@ figure img {
     align-items: center;
     text-align: center;
 }
+
 .hot-deal-text {
-    width: 550px;
+    width: 600px;
 }
 
-.hot-deal-text h2 {
+section h2>span {
+    color: red;
+}
+
+/* .hot-deal-text h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
@@ -171,7 +178,7 @@ figure img {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 20px;
-}
+} */
 
 /* Instagram section releteeeed css */
 section#instagram-section h2 {
@@ -181,6 +188,7 @@ section#instagram-section h2 {
     font-weight: 800;
     padding-bottom: 15px;
 }
+
 section#instagram-section p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -189,8 +197,9 @@ section#instagram-section p {
     font-size: 18px;
     font-weight: 400;
     margin: 0 auto;
-    
+
 }
+
 .instagram-imges {
     display: flex;
     justify-content: space-around;
@@ -200,4 +209,40 @@ section#instagram-section p {
     background: #FFF;
     gap: 33px;
     margin-top: 40px;
+}
+
+.instagram-imges img {
+    width: 300px;
+    height: 400px;
+}
+
+/* subscribe section related css */
+#subscribe-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form.subscribe-form {
+    text-align: center;
+    padding: 25px 20px;
+}
+
+input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* ::placeholder {
+  color: red;
+}
+  i find placeholder selector css code in google search
+*/
+::placeholder {
+    padding: 20px;
+}
+
+.subscrive-wrapper {
+    background-image: url("./Flower Asset/Rectangle 9.png");
 }
